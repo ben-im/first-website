@@ -1,0 +1,131 @@
+nav {
+  font-family: DejaVu Sans Mono, monospace;
+  color: greenyellow;
+  margin-bottom: 40px;
+  font-weight: bold;
+  display: flex;
+  background-color: aquamarine;
+  width: auto;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+a.link {
+  color: rgb(226, 39, 76);
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 40px;
+  text-decoration: underline;
+  color: dodgerblue;
+  text-decoration-color: lightcoral;
+}
+
+h2 {
+  display: flex;
+  justify-content: left;
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 25px;
+  color: teal;
+  margin-left: 142px;
+
+}
+
+div.paragraphs {
+  display: flex;
+  justify-content: left;
+  font-family: Georgia, serif;
+  color: black;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+#anime-characters {
+  display: flex;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+fieldset {
+  border: solid 2px black;
+  background-color: cadetblue;
+}
+
+form {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+label.check {
+  display: inline-block;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+span {
+  font-family: Georgia, serif;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+div.images {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5% 0;
+  justify-content: center;
+  margin-left: auto;
+}
+
+span.label {
+  float: left;
+  margin-top: -30px;
+}
+
+#resources {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: teal;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+li {
+  margin-left: 150px;
+  padding-bottom: 40px;
+}
+
+#one-piece,
+#naruto,
+#bleach,
+#attack-on-titan,
+#death-note {
+  width: 400px;
+}
+
+#cowboy-bebop {
+  width: 400px;
+  height: 225px;
+}
