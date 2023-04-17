@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<nav id="navbar">
+  <a class="link" href="page-one.html" id="page_one">Home</a>
+  <a class="link" href="page-two.html" id="page_two">Survey</a>
+  <a class="link" href="page-three.html" id="page_three">Other Resources</a>
+  <a class="link" href="page-four.html" id="page_four">Popular Anime</a>
+</nav>
+
+<head>
+  <title>Anime for Noobs</title>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend></legend>
+
+      <div class="form">
+        <label for="name" class="text">Name:</label>
+        <br>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div class="form">
+        <label for="age" class="text">Age:</label>
+        <br>
+        <input type="text" id="age" name="age">
+      </div>
+
+      <div class="form">
+        <input type="checkbox" class="check" id="experience" name="experience" value="Experience">
+        <label for="experience" class="check">Have you watched anime before?</label>
+      </div>
+
+      <div class="form">
+        <label for="comments">Which anime have you seen? If none, why not?</label>
+        <br>
+        <textarea id="comments" name="comments"></textarea>
+      </div>
+      <div class="form">
+        <button type="submit">Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
